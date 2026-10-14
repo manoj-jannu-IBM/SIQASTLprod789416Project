@@ -1,0 +1,9 @@
+version: "1.0"
+projectName: SIQASTLprod789416Project
+runtimes:
+- runtimeAlias: Cloud Designtime
+  assets:
+  - name: fld_1111028806_stage00.projects.fl7e0e4fa59d174138a6b87b3c17c7eb03.integrations:DummyEndpoint
+    type: flow
+    stepId: /0
+    reference: fld_1111028806_stage00.projects.fl7e0e4fa59d174138a6b87b3c17c7eb03.WmPackageServiceProvider.wm.sterling.b2b.pub:readvariables
