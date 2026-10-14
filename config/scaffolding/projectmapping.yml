@@ -29,3 +29,23 @@ runtimes:
     uid: fl61ff89f0a5b147b8b691d4f8ef0c3a9c
     stepId: ga31a0
     reference: wm.sterling.b2b.pub:finish
+  - name: WF_subworkflow of Main Workflow
+    type: workflow
+    uid: fl3b44017a940a414cbda46515899a31c8
+    stepId: a31
+    reference: wm.sterling.b2b.pub:decode
+  - name: WF_subworkflow of Main Workflow
+    type: workflow
+    uid: fl3b44017a940a414cbda46515899a31c8
+    stepId: a32
+    reference: wm.sterling.b2b.pub:storeResponse
+  - name: WF_subworkflow of Main Workflow
+    type: workflow
+    uid: fl3b44017a940a414cbda46515899a31c8
+    stepId: ga23a5
+    reference: wm.sterling.b2b.pub:invokeService
+  - name: WF_subworkflow of Main Workflow
+    type: workflow
+    uid: fl3b44017a940a414cbda46515899a31c8
+    stepId: ga23a3
+    reference: wm.sterling.b2b.pub:finish
