@@ -8,7 +8,29 @@ packages:
   gitUsername: manoj-jannu-IBM
   gitBranch: main
 - name: WmSterlingB2B
+  version: "1.6"
   gitServerName: SIQAGitHubTest
   gitUrl: https://github.com/manoj-jannu-IBM
   gitUsername: manoj-jannu-IBM
   gitBranch: main
+services:
+- serviceName: project.siqastlprod789416.integrations:getSterlingCredentials
+  packages:
+  - name: SIQASTLprod789416Project
+    version: "1.0"
+  - name: WmSterlingB2B
+    version: "1.6"
+  - name: WmAmazonS3Provider
+    version: 12.0.0.0.21
+- serviceName: pub.flow:debugLog
+  packages:
+  - name: WmPublic
+    version: 12.1.0.0.1073
+- serviceName: project.siqastlprod789416.streaming.connections:EmbeddedMessaging
+  packages:
+  - name: SIQASTLprod789416Project
+    version: "1.0"
+  - name: WmSterlingB2B
+    version: "1.6"
+  - name: WmAmazonS3Provider
+    version: 12.0.0.0.21
