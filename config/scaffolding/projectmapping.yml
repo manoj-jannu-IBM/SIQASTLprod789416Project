@@ -7,3 +7,25 @@ runtimes:
     type: flow
     stepId: /0
     reference: fld_1111028806_stage00.projects.fl7e0e4fa59d174138a6b87b3c17c7eb03.WmPackageServiceProvider.wm.sterling.b2b.pub:readvariables
+- runtimeAlias: Cloud Runtime
+  assets:
+  - name: Parent Workflow - End
+    type: workflow
+    uid: fl61ff89f0a5b147b8b691d4f8ef0c3a9c
+    stepId: a41
+    reference: wm.sterling.b2b.pub:invokeService
+  - name: Parent Workflow - End
+    type: workflow
+    uid: fl61ff89f0a5b147b8b691d4f8ef0c3a9c
+    stepId: ga23a6
+    reference: wm.sterling.b2b.pub:invokeService
+  - name: Parent Workflow - End
+    type: workflow
+    uid: fl61ff89f0a5b147b8b691d4f8ef0c3a9c
+    stepId: ga23a3
+    reference: wm.sterling.b2b.pub:finish
+  - name: Parent Workflow - End
+    type: workflow
+    uid: fl61ff89f0a5b147b8b691d4f8ef0c3a9c
+    stepId: ga31a0
+    reference: wm.sterling.b2b.pub:finish
