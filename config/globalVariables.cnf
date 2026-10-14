@@ -9,6 +9,12 @@
         <value name="isSecure">false</value>
         <value name="isLinkedToVault">false</value>
       </record>
+      <record javaclass="com.wm.data.ISMemDataImpl">
+        <value name="key">SSO_COMP_Password</value>
+        <value name="value">gvhandle.SSO_COMP_Password</value>
+        <value name="isSecure">true</value>
+        <value name="isLinkedToVault">false</value>
+      </record>
     </array>
   </record>
 </IDataXMLCoder>
