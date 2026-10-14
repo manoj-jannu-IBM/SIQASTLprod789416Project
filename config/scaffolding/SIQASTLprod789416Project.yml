@@ -22,10 +22,6 @@ services:
     version: "1.6"
   - name: WmAmazonS3Provider
     version: 12.0.0.0.21
-- serviceName: pub.flow:debugLog
-  packages:
-  - name: WmPublic
-    version: 12.1.0.0.1073
 - serviceName: project.siqastlprod789416.streaming.connections:EmbeddedMessaging
   packages:
   - name: SIQASTLprod789416Project
@@ -34,3 +30,7 @@ services:
     version: "1.6"
   - name: WmAmazonS3Provider
     version: 12.0.0.0.21
+configurationVariables:
+  globalvariable.WmSterlingB2B.sterling..endpoint..TenantAPIKey.value: "{AES}cYkbKa0N/aXTBdPbgdzJT72x3+SsZx/v4F5zs1RKjNPhD7x0cAHOAwgU/WlT5C62Ns0iDzNxQQ4AufK10PExRBkCZ9HZJiILyGFir/47/pmwaxXGLyXTFIVSNeULSb3cmY1Q8m+uawuQn5Yo67qJJGmK1wuN3U1rA1B0VhuZoUw="
+  globalvariable.WmSterlingB2B.sterling..endpoint..ProjectID.value: fl7e0e4fa59d174138a6b87b3c17c7eb03
+  globalvariable.WmSterlingB2B.sterling..endpoint..url.value: https://prod789416.a-vir-c2.int.ipaas.test.automation.ibm.com
