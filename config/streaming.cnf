@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<IDataXMLCoder version="1.0">
+  <record javaclass="com.wm.data.ISMemDataImpl">
+    <array name="StreamingConfiguration" type="record" depth="1">
+      <record javaclass="com.wm.data.ISMemDataImpl">
+        <value name="name">SIQASTLprod789416Project_project.siqastlprod789416.streaming.connections:EmbeddedMessaging</value>
+        <value name="description">This is the default embedded messaging account</value>
+        <value name="package">SIQASTLprod789416Project</value>
+        <value name="type">kafka</value>
+        <value name="clientId">EM0798a3543d6649518b6f975794f3a6c9</value>
+        <value name="enabled">true</value>
+        <value name="other_properties"></value>
+        <value name="dynamic_properties">bootstrap.servers=nhp://stage00-prod789416-um-0.int-prod789416.svc.cluster.local:9000/</value>
+        <value name="securityProtocol"></value>
+        <null name="truststoreAlias"/>
+        <null name="keystoreAlias"/>
+        <null name="keystoreKeyAlias"/>
+      </record>
+    </array>
+  </record>
+</IDataXMLCoder>
