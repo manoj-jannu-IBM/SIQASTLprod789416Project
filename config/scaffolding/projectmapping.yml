@@ -49,3 +49,18 @@ runtimes:
     uid: fl3b44017a940a414cbda46515899a31c8
     stepId: ga23a3
     reference: wm.sterling.b2b.pub:finish
+  - name: Parent Workflow - Start
+    type: workflow
+    uid: fl97db085abee344fb8f04503ff55270b3
+    stepId: a34
+    reference: wm.sterling.b2b.pub:invokeService
+  - name: Parent Workflow - Start
+    type: workflow
+    uid: fl97db085abee344fb8f04503ff55270b3
+    stepId: ga23a6
+    reference: wm.sterling.b2b.pub:invokeService
+  - name: Parent Workflow - Start
+    type: workflow
+    uid: fl97db085abee344fb8f04503ff55270b3
+    stepId: ga23a3
+    reference: wm.sterling.b2b.pub:finish
